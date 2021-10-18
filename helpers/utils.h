@@ -345,6 +345,8 @@ namespace Utils
     void activatePlugin(const char* callSign);
 
     bool isPluginActivated(const char* callSign);
+    
+    bool isPluginUnavailable(const char* callSign);
 
     bool getRFCConfig(char* paramName, RFC_ParamData_t& paramOutput);
     bool isValidInt(char* x);
